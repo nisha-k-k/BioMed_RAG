@@ -1,11 +1,14 @@
 # 🧬 Biomedical Q&A Assistant with RAG, BioBERT, and Mistral
-This project is an end-to-end Retrieval-Augmented Generation (RAG) pipeline designed to answer biomedical questions using your own dataset of research abstracts (e.g. PubMed articles). It combines:
+This project is an end-to-end Retrieval-Augmented Generation (RAG) pipeline designed to answer biomedical/women's health-based questions using your own dataset of research abstracts (e.g. PubMed articles). It combines:
 
 * 🔍 Semantic search over custom documents (FAISS + Sentence Transformers)
 
 * 🧠 Biomedical QA with a fine-tuned BioBERT model
 
 * 🗣️ Natural rephrasing of answers using Mistral-7B Instruct
+
+## Motivation 
+This project is part of my women's health project series (following my PCOS, female infertility, and breast cancer diagnoses using mammogram imaging projects).  
 
 ## 📌 Business Question
 "Can we build a lightweight biomedical question-answering tool that provides both accurate and patient-friendly answers based on a custom research dataset?"
@@ -37,7 +40,7 @@ Rephrased: “Doctors often recommend birth control pills, medications like metf
 * Mistral (gated): mistralai/Mistral-7B-Instruct-v0.2
 
 ## 🚧 Coming Soon
-* Add a Streamlit front-end for user interaction
+* Add a Streamlit front-end for user interaction (or Flask App) 
 
 * Support for multi-turn question chains
 
